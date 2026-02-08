@@ -102,7 +102,7 @@ nav {
 	width: 20px;
 	height: 20px;
 
-	background-image: url("img/logo.png");
+	background-image: url("img/logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -160,23 +160,38 @@ nav {
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	animation: heroSlide 18s infinite;
+	animation: heroSlide 30s infinite;
 	opacity: 0;
 }
 
 .hero-bg:nth-child(1) {
-	background-image: url('https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=1600&q=80');
-	animation-delay: 0s;
+    background-image: url('img/hero/pexels-alexey-k-458081116-33558596.jpg');
+    animation-delay: 0s;
 }
 
 .hero-bg:nth-child(2) {
-	background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1600&q=80');
-	animation-delay: 6s;
+    background-image: url('img/hero/pexels-angel-balcruz-3574423-15426315.jpg');
+    animation-delay: 5s;
 }
 
 .hero-bg:nth-child(3) {
-	background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1600&q=80');
-	animation-delay: 12s;
+    background-image: url('img/hero/pexels-designecologist-1751277.jpg');
+    animation-delay: 10s;
+}
+
+.hero-bg:nth-child(4) {
+    background-image: url('img/hero/pexels-pixabay-159644.jpg');
+    animation-delay: 15s;
+}
+
+.hero-bg:nth-child(5) {
+    background-image: url('img/hero/pexels-rdne-8580793.jpg');
+    animation-delay: 20s;
+}
+
+.hero-bg:nth-child(6) {
+    background-image: url('img/hero/pexels-readymade-3847466.jpg');
+    animation-delay: 25s;
 }
 
 @keyframes heroSlide {
@@ -568,6 +583,15 @@ footer a:hover {
 	letter-spacing: 2px;
 }
 
+.about-section h3 {
+	font-family: var(--font-serif);
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: var(--color-slate);
+	margin-bottom: 2rem;
+	letter-spacing: 2px;
+}
+
 .about-content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -653,9 +677,18 @@ footer a:hover {
 	letter-spacing: 2px;
 }
 
+.services-section h3 {
+	font-family: var(--font-serif);
+	font-size: 2rem;
+	font-weight: 500;
+	color: var(--color-slate);
+	margin-bottom: 1rem;
+	letter-spacing: 2px;
+}
+
 .services-content {
 	display: grid;
-	gap: 3rem;
+	gap: 1rem;
 	margin-top: 3rem;
 	text-align: left;
 }
@@ -701,6 +734,15 @@ footer a:hover {
 	font-family: var(--font-serif);
 	font-size: 3rem;
 	font-weight: 300;
+	color: var(--color-slate);
+	margin-bottom: 1rem;
+	letter-spacing: 2px;
+}
+
+.contact-section h3 {
+	font-family: var(--font-serif);
+	font-size: 2rem;
+	font-weight: 500;
 	color: var(--color-slate);
 	margin-bottom: 1rem;
 	letter-spacing: 2px;
