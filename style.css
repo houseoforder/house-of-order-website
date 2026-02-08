@@ -8,20 +8,20 @@
 }
 
 :root {
-	--color-snow: #e3f2fd;
-	--color-ice: #e8f4f8;
-	--color-frost: #d4e9f2;
+	--color-w0: #ffffff;
+	--color-w1: #e3f2fd;
+	--color-w2: #e8f4f8;
+	--color-w3: #d4e9f2;
 	--color-winter-blue: #7ba8bd;
-	--color-slate: #4a5f6d;
-	--color-charcoal: #0f172a;
-	--color-white: #ffffff;
+	--color-g1: #4a5f6d;
+	--color-d1: #0f172a;
 	--font-serif: 'Cormorant Garamond', serif;
 	--font-sans: 'Montserrat', sans-serif;
 }
 
 body {
 	font-family: var(--font-sans);
-	background: linear-gradient(135deg, var(--color-snow) 0%, var(--color-ice) 100%);
+	background: linear-gradient(135deg, var(--color-w1) 0%, var(--color-ice) 100%);
 	color: var(--color-charcoal);
 	line-height: 1.6;
 	min-height: 100vh;
@@ -83,7 +83,7 @@ nav {
 
 .nav-links a {
 	text-decoration: none;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	font-size: 0.9rem;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -225,9 +225,9 @@ nav {
 
 .hero h1 {
 	font-family: var(--font-serif);
-	font-size: 4.5rem;
-	font-weight: 300;
-	color: var(--color-slate);
+	font-size: 3rem;
+	font-weight: 700;
+	color: var(--color-g1);
 	margin-bottom: 1.5rem;
 	letter-spacing: 3px;
 	line-height: 1.2;
@@ -237,10 +237,9 @@ nav {
 
 .hero p {
 	font-size: 1.1rem;
-	color: var(--color-winter-blue);
-	font-weight: 300;
+	color: var(--color-g1);
+	font-weight: 500;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 	position: relative;
 	z-index: 1;
 }
@@ -263,7 +262,7 @@ nav {
 	border: none;
 	font-family: var(--font-sans);
 	font-size: 0.95rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	cursor: pointer;
 	padding: 0.5rem 0;
 	position: relative;
@@ -313,7 +312,7 @@ nav {
 	overflow: hidden;
 	border-radius: 2px;
 	cursor: pointer;
-	background: var(--color-white);
+	background: var(--color-w0);
 	box-shadow: 0 4px 20px rgba(123, 168, 189, 0.08);
 	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 	opacity: 0;
@@ -407,14 +406,14 @@ nav {
 .gallery-title {
 	font-family: var(--font-serif);
 	font-size: 1.3rem;
-	color: var(--color-white);
+	color: var(--color-w0);
 	font-weight: 300;
 	margin-bottom: 0.3rem;
 }
 
 .gallery-category {
 	font-size: 0.75rem;
-	color: var(--color-frost);
+	color: var(--color-w3);
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-weight: 300;
@@ -475,7 +474,7 @@ nav {
 .lightbox-info h3 {
 	font-family: var(--font-serif);
 	font-size: 2rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	font-weight: 300;
 	margin-bottom: 0.5rem;
 }
@@ -495,7 +494,7 @@ nav {
 	background: none;
 	border: none;
 	font-size: 3rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
@@ -521,7 +520,7 @@ nav {
 	height: 50px;
 	cursor: pointer;
 	font-size: 1.5rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	transition: all 0.3s ease;
 	display: flex;
 	align-items: center;
@@ -529,7 +528,7 @@ nav {
 }
 
 .lightbox-nav:hover {
-	background: var(--color-white);
+	background: var(--color-w0);
 	color: var(--color-winter-blue);
 }
 
@@ -578,7 +577,7 @@ footer a:hover {
 	font-family: var(--font-serif);
 	font-size: 3rem;
 	font-weight: 300;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 2rem;
 	letter-spacing: 2px;
 }
@@ -587,7 +586,7 @@ footer a:hover {
 	font-family: var(--font-serif);
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 2rem;
 	letter-spacing: 2px;
 }
@@ -603,7 +602,7 @@ footer a:hover {
 .about-text p {
 	font-size: 1rem;
 	line-height: 1.8;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 1.5rem;
 	font-weight: 300;
 }
@@ -611,7 +610,7 @@ footer a:hover {
 .about-image {
 	width: 100%;
 	height: 400px;
-	background: var(--color-frost);
+	background: var(--color-w3);
 	border-radius: 2px;
 	overflow: hidden;
 }
@@ -654,7 +653,7 @@ footer a:hover {
 
 .stat-label {
 	font-size: 0.75rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-weight: 300;
@@ -671,8 +670,8 @@ footer a:hover {
 .services-section h2 {
 	font-family: var(--font-serif);
 	font-size: 3rem;
-	font-weight: 300;
-	color: var(--color-slate);
+	font-weight: 500;
+	color: var(--color-g1);
 	margin-bottom: 2rem;
 	letter-spacing: 2px;
 }
@@ -680,8 +679,8 @@ footer a:hover {
 .services-section h3 {
 	font-family: var(--font-serif);
 	font-size: 2rem;
-	font-weight: 500;
-	color: var(--color-slate);
+	font-weight: 600;
+	color: var(--color-g1);
 	margin-bottom: 1rem;
 	letter-spacing: 2px;
 }
@@ -696,15 +695,15 @@ footer a:hover {
 .services-text p {
 	font-size: 1rem;
 	line-height: 1.8;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 1.5rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .services-image {
 	width: 100%;
 	height: 400px;
-	background: var(--color-frost);
+	background: var(--color-w3);
 	border-radius: 2px;
 	overflow: hidden;
 }
@@ -733,8 +732,8 @@ footer a:hover {
 .contact-section h2 {
 	font-family: var(--font-serif);
 	font-size: 3rem;
-	font-weight: 300;
-	color: var(--color-slate);
+	font-weight: 500;
+	color: var(--color-g1);
 	margin-bottom: 1rem;
 	letter-spacing: 2px;
 }
@@ -743,7 +742,7 @@ footer a:hover {
 	font-family: var(--font-serif);
 	font-size: 2rem;
 	font-weight: 500;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 1rem;
 	letter-spacing: 2px;
 }
@@ -752,7 +751,7 @@ footer a:hover {
 	font-size: 1rem;
 	color: var(--color-winter-blue);
 	margin-bottom: 3rem;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .contact-form {
@@ -770,7 +769,7 @@ footer a:hover {
 
 .form-group label {
 	font-size: 0.85rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	margin-bottom: 0.5rem;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
@@ -781,7 +780,7 @@ footer a:hover {
 .form-group textarea {
 	padding: 1rem;
 	border: 1px solid rgba(123, 168, 189, 0.2);
-	background: var(--color-white);
+	background: var(--color-w0);
 	font-family: var(--font-sans);
 	font-size: 0.95rem;
 	color: var(--color-charcoal);
@@ -802,8 +801,8 @@ footer a:hover {
 
 .submit-btn {
 	padding: 1rem 3rem;
-	background: var(--color-slate);
-	color: var(--color-white);
+	background: var(--color-g1);
+	color: var(--color-w0);
 	border: none;
 	font-family: var(--font-sans);
 	font-size: 0.9rem;
@@ -832,13 +831,13 @@ footer a:hover {
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	font-size: 0.9rem;
 	font-weight: 300;
 }
 
 .contact-item a {
-	color: var(--color-slate);
+	color: var(--color-g1);
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
@@ -853,7 +852,7 @@ footer a:hover {
 	background: none;
 	border: none;
 	font-size: 1.5rem;
-	color: var(--color-slate);
+	color: var(--color-g1);
 	cursor: pointer;
 }
 
@@ -881,7 +880,7 @@ footer a:hover {
 		top: 100%;
 		left: 0;
 		right: 0;
-		background: var(--color-white);
+		background: var(--color-w0);
 		flex-direction: column;
 		padding: 2rem;
 		gap: 1.5rem;
@@ -981,4 +980,31 @@ footer a:hover {
 	.stat-label {
 		font-size: 0.7rem;
 	}
+}
+
+.card {
+  position: relative;
+}
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #fb77a3;
+  color: white;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  bottom: 1rem;
+  left: 1rem;
+  position: absolute;
+  z-index: 10;
+}
+
+.instagram-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
 }
