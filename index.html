@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House of Order</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
@@ -23,6 +24,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -162,114 +164,181 @@
     <!-- Filter Section -->
     <section class="filter-container">
         <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="landscapes">Landscapes</button>
-            <button class="filter-btn" data-filter="decorations">Decorations</button>
-            <button class="filter-btn" data-filter="food">Food</button>
-            <button class="filter-btn" data-filter="family">Family</button>
+            <button class="filter-btn active" data-filter="all">Our Work</button>
+            <button class="filter-btn" data-filter="before">Before</button>
+            <button class="filter-btn" data-filter="in_progress">In Progress</button>
+            <button class="filter-btn" data-filter="after">After</button>
         </div>
     </section>
 
     <!-- Gallery Section -->
     <section class="gallery-container" id="gallery">
         <div class="gallery-grid" id="galleryGrid">
-            <!-- Landscapes -->
-            <div class="gallery-item tall" data-category="landscapes">
-                <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&q=80" alt="Mountain Snow">
+            <!-- Before -->
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_213128_WhatsApp.jpg" alt="Image 1">
                 <div class="gallery-overlay">
-                    <h3 class="gallery-title">Mountain Snow</h3>
-                    <p class="gallery-category">Landscapes</p>
+                    <h3 class="gallery-title">Image 1</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_213138_WhatsApp.jpg" alt="Image 2">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 2</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_213237_WhatsApp.jpg" alt="Image 3">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 3</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_213314_WhatsApp.jpg" alt="Image 4">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 4</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_213331_WhatsApp.jpg" alt="Image 5">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 5</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_214029_WhatsApp.jpg" alt="Image 6">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 6</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="before">
+                <img src="img/gallery/before/Screenshot_20260208_215357_Gallery.jpg" alt="Image 7">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 7</h3>
+                    <p class="gallery-category">Before</p>
+                </div>
+            </div>
+            <!-- In Progress -->
+            <div class="gallery-item" data-category="in_progress">
+                <img src="img/gallery/workinprogress/Screenshot_20260208_192205_WhatsApp.jpg" alt="Image 8">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 8</h3>
+                    <p class="gallery-category">In Progress</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="in_progress">
+                <img src="img/gallery/workinprogress/Screenshot_20260208_213425_WhatsApp.jpg" alt="Image 9">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 9</h3>
+                    <p class="gallery-category">In Progress</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="in_progress">
+                <img src="img/gallery/workinprogress/Screenshot_20260208_213545_WhatsApp.jpg" alt="Image 10">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 10</h3>
+                    <p class="gallery-category">In Progress</p>
+                </div>
+            </div>
+            <!-- After -->
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_191228_WhatsApp.jpg" alt="Image 11">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 11</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_191620_WhatsApp.jpg" alt="Image 12">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 12</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_191751_WhatsApp.jpg" alt="Image 13">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 13</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_191820_WhatsApp.jpg" alt="Image 14">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 14</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_192407_WhatsApp.jpg" alt="Image 15">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 15</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213608_WhatsApp.jpg" alt="Image 16">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 16</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213745_WhatsApp.jpg" alt="Image 17">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 17</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213753_WhatsApp.jpg" alt="Image 18">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 18</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213811_WhatsApp.jpg" alt="Image 19">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 19</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213823_WhatsApp.jpg" alt="Image 20">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 20</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213835_WhatsApp.jpg" alt="Image 21">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 21</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_213946_WhatsApp.jpg" alt="Image 22">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 22</h3>
+                    <p class="gallery-category">After</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="after">
+                <img src="img/gallery/after/Screenshot_20260208_215123_Gallery.jpg" alt="Image 23">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Image 23</h3>
+                    <p class="gallery-category">After</p>
                 </div>
             </div>
 
-            <div class="gallery-item" data-category="decorations">
-                <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80" alt="Ornament Detail">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Ornament Detail</h3>
-                    <p class="gallery-category">Decorations</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="food">
-                <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=800&q=80" alt="Winter Warmth">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Winter Warmth</h3>
-                    <p class="gallery-category">Food</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="landscapes">
-                <img src="https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=800&q=80" alt="Frozen Lake">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Frozen Lake</h3>
-                    <p class="gallery-category">Landscapes</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="family">
-                <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=800&q=80" alt="Family Joy">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Family Joy</h3>
-                    <p class="gallery-category">Family</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="decorations">
-                <img src="https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=800&q=80" alt="Holiday Lights">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Holiday Lights</h3>
-                    <p class="gallery-category">Decorations</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="food">
-                <img src="https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=800&q=80" alt="Festive Treats">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Festive Treats</h3>
-                    <p class="gallery-category">Food</p>
-                </div>
-            </div>
-
-            <div class="gallery-item tall" data-category="landscapes">
-                <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80" alt="Winter Forest">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Winter Forest</h3>
-                    <p class="gallery-category">Landscapes</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="family">
-                <img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80" alt="Winter Together">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Winter Together</h3>
-                    <p class="gallery-category">Family</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="decorations">
-                <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383?w=800&q=80" alt="Gift Wrapping">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Gift Wrapping</h3>
-                    <p class="gallery-category">Decorations</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="landscapes">
-                <img src="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=800&q=80" alt="Snowy Path">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Snowy Path</h3>
-                    <p class="gallery-category">Landscapes</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="food">
-                <img src="https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?w=800&q=80" alt="Cozy Drinks">
-                <div class="gallery-overlay">
-                    <h3 class="gallery-title">Cozy Drinks</h3>
-                    <p class="gallery-category">Food</p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Lightbox -->
