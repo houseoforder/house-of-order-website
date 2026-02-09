@@ -226,7 +226,7 @@ nav {
 .hero h1 {
 	font-family: var(--font-serif);
 	font-size: 3rem;
-	font-weight: 700;
+	font-weight: 600;
 	color: var(--color-g1);
 	margin-bottom: 1.5rem;
 	letter-spacing: 3px;
